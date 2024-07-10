@@ -6,8 +6,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.curso.microservicios.spring.commons.services.CommonServiceImpl;
-import com.curso.microservicios.spring.examenes.models.entity.Examen;
 import com.curso.microservicios.spring.examenes.models.repository.ExamenRepository;
+import com.curso.microservicios.spring.generic.examenes.models.entity.Examen;
 
 @Service
 public class ExamenServiceImpl extends CommonServiceImpl<Examen, ExamenRepository> implements ExamenService {
