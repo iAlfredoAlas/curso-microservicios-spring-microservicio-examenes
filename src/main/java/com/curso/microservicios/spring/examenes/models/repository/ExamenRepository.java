@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
-import com.curso.microservicios.spring.examenes.models.entity.Examen;
+import com.curso.microservicios.spring.generic.examenes.models.entity.Examen;
 
 public interface ExamenRepository extends CrudRepository<Examen, Long> {
 
