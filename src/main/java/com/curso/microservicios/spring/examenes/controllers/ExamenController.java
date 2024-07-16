@@ -44,4 +44,9 @@ public class ExamenController extends CommonController<Examen, ExamenService> {
 		return ResponseEntity.status(HttpStatus.OK).body(service.findByNombre(term));
 	}
 	
+	@GetMapping("/asignaturas")
+	public ResponseEntity<?> listarAsignaturas(){
+		return ResponseEntity.status(HttpStatus.OK).body(service.findAllAsignaturas());
+	}
+	
 }
